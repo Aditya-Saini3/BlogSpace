@@ -1,0 +1,79 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #34568B;
+    color: white;
+}
+
+nav {
+    background-color: #34568B;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+nav > h3 {
+    margin: 0;
+}
+
+#blog-list {
+    padding: 10px;
+}
+
+#blog-list h3 {
+    color: black;
+}
+
+#blog-list hr {
+    border: 1px solid #92A8D1;
+}
+
+form {
+    padding: 60px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #92A8D1;
+    color: black;
+    border: 1px solid black;
+}
+form label {
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+form textarea {
+    margin-bottom: 10px;
+}
+form button {
+    margin-top: 15px;
+    padding: 5px;
+    border: none;
+    margin: auto;
+    background: #34568B;
+    color: white;
+    font-family: "karla", "san-serif";
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+    min-width: 90px;
+    cursor: pointer;
+}
+
+form button:hover {
+    box-shadow: 1px 2px #070b13;    
+}
+
+/* 
+Challenge: our form is hideous! Make it less hideous :P
+
+* Lay out the elements in a nicer way, maybe vertically. 
+  (CSS Grid or Flexbox should make this easy)
+* Add some background color to separate it from the posts
+* Style the button however you'd like.
+*/
